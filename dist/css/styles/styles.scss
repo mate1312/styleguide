@@ -1,0 +1,26 @@
+@import "variables";
+@import "grid";
+@import "header";
+@import "buttons";
+@import "text";
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/dist/fonts/Montserrat-Thin.ttf) format('truetype');
+}
+
+.square-primary {
+    height: 100px;
+    background: $primary-color;
+}
+
+.square-secondary {
+    height: 100px;
+    background: $secondary-color;
+}
+
+.square-attention {
+    height: 100px;
+    background: $attention-color;
+}

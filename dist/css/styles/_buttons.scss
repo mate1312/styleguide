@@ -1,0 +1,39 @@
+$btn-primary: #15CE9A;
+$btn-hover: #0f9c74;
+$btn-disabled: rgba(21, 206, 154, 0.5);
+$btn-outline:#192549;
+.btn-primary {
+    background: $btn-primary;
+    border-style: none;
+    color: white;
+    &:hover {
+        background: $btn-hover;
+    }
+}
+
+.btn-outline {
+    color: $btn-outline;
+    background-color: transparent;
+    border: 2px solid $btn-outline;
+    &:active {
+        background: $btn-outline;
+        color: white;
+    }
+}
+
+.btn-disabled {
+    background: $btn-disabled;
+    color: white;
+    cursor: not-allowed !important;
+    border-style: none;
+}
+
+.btn {
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 52px;
+    text-decoration: none;
+}
