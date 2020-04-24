@@ -1,130 +1,132 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 [class*="col-"] {
-  float: left;
-  padding: 0 1%;
-  margin-bottom: 16px;
+    float: left;
+    padding: 0 1%;
+    margin-bottom: 16px;
 }
 
 .col-1 {
-  width: 8.33333%;
+    width: 8.33333%;
 }
 
 .col-2 {
-  width: 16.66667%;
+    width: 16.66667%;
 }
 
 .col-3 {
-  width: 25%;
+    width: 25%;
 }
 
 .col-4 {
-  width: 33.33333%;
+    width: 33.33333%;
 }
 
 .col-5 {
-  width: 41.66667%;
+    width: 41.66667%;
 }
 
 .col-6 {
-  width: 50%;
+    width: 50%;
 }
 
 .col-7 {
-  width: 58.33333%;
+    width: 58.33333%;
 }
 
 .col-8 {
-  width: 66.66667%;
+    width: 66.66667%;
 }
 
 .col-9 {
-  width: 75%;
+    width: 75%;
 }
 
 .col-10 {
-  width: 83.33333%;
+    width: 83.33333%;
 }
 
 .col-11 {
-  width: 91.66667%;
+    width: 91.66667%;
 }
 
 .col-12 {
-  width: 100%;
+    width: 100%;
 }
 
 .btn-primary {
-  background: #15CE9A;
-  border-style: none;
-  color: white;
+    background: #15CE9A;
+    border-style: none;
+    color: white;
 }
 
 .btn-primary:hover {
-  background: #0f9c74;
+    background: #0f9c74;
 }
 
 .btn-outline {
-  color: #192549;
-  background-color: transparent;
-  border: 2px solid #192549;
+    color: #192549;
+    background-color: transparent;
+    border: 2px solid #192549;
 }
 
 .btn-outline:active {
-  background: #192549;
-  color: white;
+    background: #192549;
+    color: white;
 }
 
 .btn-disabled {
-  background: rgba(21, 206, 154, 0.5);
-  color: white;
-  cursor: not-allowed !important;
-  border-style: none;
+    background: rgba(21, 206, 154, 0.5);
+    color: white;
+    cursor: not-allowed !important;
+    border-style: none;
 }
 
 .btn {
-  border-radius: 7px;
-  display: inline-block;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 13px 52px;
-  text-decoration: none;
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 52px;
+    text-decoration: none;
 }
 
 body {
-  font-family: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 h2 {
-  color: #051B30;
+    color: #051B30;
 }
 
 h3 {
-  color: #465059;
+    color: #465059;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url(/dist/fonts/Montserrat-Thin.ttf) format("truetype");
+    font-family: 'Montserrat';
+    src: url(/dist/fonts/Montserrat-Thin.ttf) format("truetype");
 }
 
 .square-primary {
-  height: 100px;
-  background: #318BE3;
+    height: 100px;
+    background: #318BE3;
 }
 
 .square-secondary {
-  height: 100px;
-  background: #E93F66;
+    height: 100px;
+    background: #E93F66;
 }
 
 .square-attention {
-  height: 100px;
-  background: #FFC866;
+    height: 100px;
+    background: #FFC866;
 }
+
+
 /*# sourceMappingURL=styles.css.map */
