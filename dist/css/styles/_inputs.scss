@@ -1,0 +1,26 @@
+.default-input {
+    border-width: 2px;
+    // border-color: $border-color;
+    border-style: solid;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.active-input {
+    border-width: 2px;
+    border-color: rgb(70, 70, 219);
+    border-style: solid;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.error-input {
+    border-width: 2px;
+    border-color: rgb(219, 70, 70);
+    border-style: solid;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
